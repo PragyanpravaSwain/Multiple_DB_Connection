@@ -1,0 +1,22 @@
+spring:
+  db1:
+    datasource:
+      url: jdbc:mysql://localhost:3306/multiple_db1
+      username: root
+      password: pragyan12
+      driver:
+        class:
+          name: com.mysql.cj.jdbc.Driver
+  db2:
+    datasource:
+      url: jdbc:mysql://localhost:3306/multiple_db2
+      username: root
+      password: pragyan12
+      driver:
+        class:
+          name: com.mysql.cj.jdbc.Driver
+
+  security:
+    user:
+      name: user
+      password: password
